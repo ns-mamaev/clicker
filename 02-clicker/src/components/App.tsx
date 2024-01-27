@@ -54,7 +54,8 @@ export const App: FC = () => {
       maxWidth="sm"
     >
       <Button
-        sx={{ bgcolor: "orange", display: "block", height: "48px" }}
+        color="warning"
+        sx={{ display: "block", height: "48px" }}
         disabled={isLoading}
         variant="contained"
         onClick={onClick}
